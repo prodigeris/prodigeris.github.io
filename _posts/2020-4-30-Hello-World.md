@@ -1,9 +1,7 @@
 ---
 layout: post
-title: We're live!
+title: We're live! Why only now?
 ---
-
-## Why only now?
 
 I've always dreamed about having a proper blog.
 
