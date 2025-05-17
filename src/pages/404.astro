@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+
+// Redirect to /blog
+if (Astro.url.pathname !== '/blog') {
+	return Astro.redirect('/blog');
+}
+---
+
+<Layout
+	title="404: Not Found"
+	description="Page not found"
+	pubDate={new Date()}
+>
+	<div class="prose">
+		<p>Sorry, the page you're looking for doesn't exist.</p>
+		<a href="/blog">Go back home</a>
+	</div>
+</Layout>
