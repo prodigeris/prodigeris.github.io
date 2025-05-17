@@ -5,6 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'http://arn.as',
+	site: 'https://prodigeris.github.io',
 	integrations: [mdx(), sitemap()],
 });
